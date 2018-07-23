@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064604F3D8F01443FDECB5F7 /* Pods_tabBarFromScratch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80130955D4D7FA7956E2C3D /* Pods_tabBarFromScratch.framework */; };
 		A3091F0B2105E3F200B97C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F0A2105E3F200B97C40 /* AppDelegate.swift */; };
 		A3091F0D2105E3F200B97C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F0C2105E3F200B97C40 /* ViewController.swift */; };
 		A3091F102105E3F200B97C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3091F0E2105E3F200B97C40 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		A3091F152105E3F300B97C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3091F132105E3F300B97C40 /* LaunchScreen.storyboard */; };
 		A3091F202105E3F400B97C40 /* tabBarFromScratchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F1F2105E3F400B97C40 /* tabBarFromScratchTests.swift */; };
 		A3091F2B2105E3F400B97C40 /* tabBarFromScratchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F2A2105E3F400B97C40 /* tabBarFromScratchUITests.swift */; };
+		A3091F3C2105EA5B00B97C40 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F3B2105EA5B00B97C40 /* CellInfo.swift */; };
+		A3091F402105EB1300B97C40 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F3F2105EB1300B97C40 /* TableViewCell.swift */; };
+		A3091F452106046400B97C40 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F442106046400B97C40 /* UIButtonX.swift */; };
+		A3091F482106130C00B97C40 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3091F472106130C00B97C40 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55FBA954CA0832EA29762AFC /* Pods_tabBarFromScratchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tabBarFromScratchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F65B86E738D8A5B5B604C3 /* Pods-tabBarFromScratch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabBarFromScratch.release.xcconfig"; path = "Pods/Target Support Files/Pods-tabBarFromScratch/Pods-tabBarFromScratch.release.xcconfig"; sourceTree = "<group>"; };
 		A3091F072105E3F200B97C40 /* tabBarFromScratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabBarFromScratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3091F0A2105E3F200B97C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3091F0C2105E3F200B97C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		A3091F262105E3F400B97C40 /* tabBarFromScratchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabBarFromScratchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3091F2A2105E3F400B97C40 /* tabBarFromScratchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarFromScratchUITests.swift; sourceTree = "<group>"; };
 		A3091F2C2105E3F400B97C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3091F3B2105EA5B00B97C40 /* CellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
+		A3091F3F2105EB1300B97C40 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A3091F442106046400B97C40 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		A3091F472106130C00B97C40 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		DA9EA09BEE6F6C71A917AC29 /* Pods-tabBarFromScratch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabBarFromScratch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tabBarFromScratch/Pods-tabBarFromScratch.debug.xcconfig"; sourceTree = "<group>"; };
+		E80130955D4D7FA7956E2C3D /* Pods_tabBarFromScratch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tabBarFromScratch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7EAB4531C833ADAD0883E6 /* Pods_tabBarFromScratchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tabBarFromScratchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064604F3D8F01443FDECB5F7 /* Pods_tabBarFromScratch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				A3091F1E2105E3F400B97C40 /* tabBarFromScratchTests */,
 				A3091F292105E3F400B97C40 /* tabBarFromScratchUITests */,
 				A3091F082105E3F200B97C40 /* Products */,
+				E3236204A08B5E61E1E65A08 /* Pods */,
+				C3539B80C39907EC7AAD7917 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +114,13 @@
 		A3091F092105E3F200B97C40 /* tabBarFromScratch */ = {
 			isa = PBXGroup;
 			children = (
+				A3091F46210612DC00B97C40 /* API */,
+				A3091F432106044500B97C40 /* IBDesignable */,
+				A3091F392105E44F00B97C40 /* model */,
+				A3091F382105E44900B97C40 /* view */,
+				A3091F3A2105E46800B97C40 /* controller */,
 				A3091F0A2105E3F200B97C40 /* AppDelegate.swift */,
-				A3091F0C2105E3F200B97C40 /* ViewController.swift */,
-				A3091F0E2105E3F200B97C40 /* Main.storyboard */,
 				A3091F112105E3F300B97C40 /* Assets.xcassets */,
-				A3091F132105E3F300B97C40 /* LaunchScreen.storyboard */,
 				A3091F162105E3F300B97C40 /* Info.plist */,
 			);
 			path = tabBarFromScratch;
@@ -125,6 +144,67 @@
 			path = tabBarFromScratchUITests;
 			sourceTree = "<group>";
 		};
+		A3091F382105E44900B97C40 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A3091F0E2105E3F200B97C40 /* Main.storyboard */,
+				A3091F132105E3F300B97C40 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A3091F392105E44F00B97C40 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A3091F3B2105EA5B00B97C40 /* CellInfo.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A3091F3A2105E46800B97C40 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3091F0C2105E3F200B97C40 /* ViewController.swift */,
+				A3091F3F2105EB1300B97C40 /* TableViewCell.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A3091F432106044500B97C40 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				A3091F442106046400B97C40 /* UIButtonX.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		A3091F46210612DC00B97C40 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A3091F472106130C00B97C40 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C3539B80C39907EC7AAD7917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E80130955D4D7FA7956E2C3D /* Pods_tabBarFromScratch.framework */,
+				55FBA954CA0832EA29762AFC /* Pods_tabBarFromScratchTests.framework */,
+				FB7EAB4531C833ADAD0883E6 /* Pods_tabBarFromScratchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3236204A08B5E61E1E65A08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA9EA09BEE6F6C71A917AC29 /* Pods-tabBarFromScratch.debug.xcconfig */,
+				A2F65B86E738D8A5B5B604C3 /* Pods-tabBarFromScratch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3091F2F2105E3F400B97C40 /* Build configuration list for PBXNativeTarget "tabBarFromScratch" */;
 			buildPhases = (
+				F6FF579E37CE4C1B1CFFA0AC /* [CP] Check Pods Manifest.lock */,
 				A3091F032105E3F200B97C40 /* Sources */,
 				A3091F042105E3F200B97C40 /* Frameworks */,
 				A3091F052105E3F200B97C40 /* Resources */,
+				3DB4810BEC9C65B884A9D2EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +333,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DB4810BEC9C65B884A9D2EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tabBarFromScratch/Pods-tabBarFromScratch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tabBarFromScratch/Pods-tabBarFromScratch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6FF579E37CE4C1B1CFFA0AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tabBarFromScratch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3091F032105E3F200B97C40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3091F402105EB1300B97C40 /* TableViewCell.swift in Sources */,
+				A3091F452106046400B97C40 /* UIButtonX.swift in Sources */,
+				A3091F3C2105EA5B00B97C40 /* CellInfo.swift in Sources */,
 				A3091F0D2105E3F200B97C40 /* ViewController.swift in Sources */,
 				A3091F0B2105E3F200B97C40 /* AppDelegate.swift in Sources */,
+				A3091F482106130C00B97C40 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +555,7 @@
 		};
 		A3091F302105E3F400B97C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9EA09BEE6F6C71A917AC29 /* Pods-tabBarFromScratch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +573,7 @@
 		};
 		A3091F312105E3F400B97C40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F65B86E738D8A5B5B604C3 /* Pods-tabBarFromScratch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
